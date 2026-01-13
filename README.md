@@ -1,5 +1,5 @@
 # aihwdr
-Handwritten digits image recognition using AI models - SVM, Random Forest, Keras Sequential
+Handwritten digits image recognition using Support Vector Machines, Random Forest, TensorFlow Keras Sequential.
 
 Project:
 PTID-CDS-DEC-25-3624_PRCP-1002-HandwrittenDigits
