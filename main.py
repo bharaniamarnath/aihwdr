@@ -5,7 +5,7 @@ import warnings
 
 from process import data_process
 from model import model_build
-from evaluate import model_accuracy
+from evaluate import model_evaluate
 from output import model_output
 from webui import web_interface
 
@@ -28,7 +28,7 @@ def main():
 
         # Model Evaluation
         logging.info("Begin model evaluation...")
-        accuracies = model_accuracy(models)
+        accuracies = model_evaluate(models)
         if accuracies is None:
             raise ValueError("Model evaluation failed.")
 

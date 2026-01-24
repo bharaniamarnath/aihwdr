@@ -7,7 +7,7 @@ import warnings
 logger.status()
 warnings.filterwarnings("ignore")
 
-def model_accuracy(models):
+def model_evaluate(models):
     logging.info("Model evaluation started...")
     try:
         # Call model_build to get processed data
